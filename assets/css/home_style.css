@@ -19,10 +19,7 @@
 body.home {
     margin: 0;
     padding: 0;
-    background-image: url("../images/group_pic.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: 100vh;
   }
   
   header {
@@ -71,7 +68,7 @@ body.home {
   
   main {
     height: 100vh;
-    background-image: url('your-image-url.jpg');
+    background-image: url('../images/group_pic.jpg');
     background-size: cover;
     background-position: center;
     transition: ease-in-out 1s;

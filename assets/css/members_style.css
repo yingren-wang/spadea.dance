@@ -18,9 +18,13 @@
 
 .gallery {
     margin-top: 10px;
-    padding: 0 6px;
-    float: left;
-    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.member{
+    width: 23%;
 }
 
 div.member img {
@@ -29,7 +33,10 @@ div.member img {
 }
 
 div.title {
-    padding: 15px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Glamore';
     text-align: center;
 }
 
