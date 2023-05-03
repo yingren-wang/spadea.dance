@@ -3,25 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>Spade A Member Gallery</title>
-  <link rel="stylesheet" href="assets/css/members_style.css">
-  <link rel="stylesheet" href="assets/css/home_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <header>
-  <h1>&spades; Member Gallery &spades;</h1>
+  <a href="index.html">
+    <h1>&spades; Member Gallery &spades;</h1>
+    <h2>Spade A Dance Crew</h2>
+  </a>
 </header>
 <nav>
   <ul>
     <li><a href="index.html">Home</a></li>
-    <li><a href="#">About</a></li>
+    <li><a href="about.html">About</a></li>
     <li><a href="members.html">Members</a></li>
     <li><a href="#">Calendar</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
 </nav>
-<body>
+<body class="members">
   <div class="gallery">
     <!-- Generated pictures here -->
   </div>
+
+  <!--Pop up element for member introductions-->
   <div class="popup hidden">
     <div class="popup-inner">
       <div class="popup-image">
@@ -34,6 +39,15 @@
       </div>
     </div>
   </div>
+
+  <footer>
+    <ul class="social-media">
+      <li><i class="fab fa-youtube"></i><a href="https://www.youtube.com/@SpadeADanceGlobal">Youtube</a></li>
+      <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/spadea.dance/?hl=en">Instagram</a></li>
+      <li><i class="fab fa-bilibili"></i><a href="https://space.bilibili.com/492237240">Bilibili</a></li>
+      <li><i class="fab fa-tiktok"></i><a href="https://www.tiktok.com/@spadea.dance">TikTok</a></li>
+    </ul>
+  </footer>
 
   <script src="assets/js/members_script.js"></script>
 </body>
