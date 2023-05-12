@@ -1,28 +1,27 @@
 const gallery = document.querySelector(".gallery");
 
-const picture_directory = "../spadea.dance.github.io/assets/images/sp23_member/";
-
 // TODO: automate adding pictures:
+const picture_directory = "assets/images/sp23_member/";
 
 const pictures = [
   { 
     title: "Yingren", 
-    src: "../spadea.dance.github.io/assets/images/sp23_member/yingren/yingren_cover.jpg",
+    src: "assets/images/sp23_member/yingren/yingren_cover.jpg",
     description: "A beautiful view of Nancy" 
   },
   { 
     title: "Nanxi", 
-    src: "../spadea.dance.github.io/assets/images/sp23_member/nanxi/nanxi_cover.JPG",
+    src: "assets/images/sp23_member/nanxi/nanxi_cover.JPG",
     description: "A stunning view of Paris" 
   },
   { 
     title: "Sola", 
-    src: "../spadea.dance.github.io/assets/images/sp23_member/sola/sola_cover.JPG",
+    src: "assets/images/sp23_member/sola/sola_cover.JPG",
     description: "A stunning view of Paris" 
   },
   { 
     title: "Garcia", 
-    src: "../spadea.dance.github.io/assets/images/sp23_member/garcia/garcia_cover.JPG",
+    src: "assets/images/sp23_member/garcia/garcia_cover.JPG",
     description: "A stunning view of Paris" 
   }
   // add more picture data here

@@ -1,0 +1,165 @@
+@font-face{
+  font-family: 'glamore';
+  src: url("../font/Glamore.otf");
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+      width: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body.home {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  header {
+    height: auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    font-family: 'glamore';
+    letter-spacing: 5px;
+  }
+  
+  h1 {
+    font-size: 60px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  nav {
+    text-align: center;
+    background-color: #dfe5ef;
+    padding: 10px 0;
+    font-family: 'glamore';
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  main {
+    height: 100vh;
+    background-image: url('../images/group_pic.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: ease-in-out 1s;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  body.home footer{
+    background-color: #f2f2f2;
+  }
+  
+  .social-media {
+    list-style: none;
+    font-family: 'glamore';
+    margin: 0;
+    padding: 0;
+  }
+
+  .social-media i{
+    margin: 0 5px;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-media a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+/* Members */
+.gallery {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.member{
+    width: 23%;
+}
+
+div.member img {
+    width: 100%;
+    height: auto;
+}
+
+div.title {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Glamore';
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* About */
+.horizontal{
+  display: flex;
+  align-items: center;
+}
+
+body.about img {
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: auto;
+  display: table-cell;
+}
+
+p {
+  font-family: serif;
+  font-size: 1.2vw;
+  padding-right: 100px;
+  font-weight: normal;
+  display: table-cell;
+  vertical-align: middle;
+}
